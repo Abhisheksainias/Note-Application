@@ -1,0 +1,114 @@
+body{
+  background: #000;
+}
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input {
+  color: white;
+}
+
+button {
+  background-color: #ffc107;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forminput{
+    /* background-color: #a29bfe; */
+    background: transparent;
+    box-shadow: 0px 0px 5px 1px #a29bfe;
+    /* background-image: linear-gradient(to right top, #172a3e, #342740, #4a2232, #51261d, #45330b); */
+}
+
+
+.notediv {
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 5px;
+  /* width: 75%; */
+  margin: auto;
+}
+
+.noteindiv {
+  width: fit-content;
+  margin-left: 10px !important;
+  background:transparent ;
+  box-shadow: 0px 0px 5px 1px #7c0dcb !important;
+  /* margin-top: 2rem !important; */
+
+  /* justify-content: space-around !important; */
+}
+.notediv button{
+    background: transparent;
+}
+.forminput input{
+    background: transparent;
+    color: #a29bfe;
+}
+.forminput textarea{
+    background: transparent;
+    color: #a29bfe;
+}
+
+.fa-trash-alt {
+  font-size: 2rem;
+  /* position: relative; */
+  bottom: 0px !important;
+  color: #a29bfe;
+  
+}
+
+.fa-edit {
+    font-size: 2rem;
+    /* position: relative; */
+    bottom: 0px !important;
+    color: #a29bfe;
+  
+}
+.note1, .h3title{
+    font-family: "Rock Salt", cursive;
+}
+.note1{
+    color: #7c0dcb;
+}
+.h3title{
+    color: #F8EFBA;
+    margin-bottom: 1.5rem;
+}
+.notehadding{
+    font-size: 4rem;
+    font-family: "Rock Salt", cursive;
+    /* background-image: linear-gradient(to right top, #172a3e, #342740, #4a2232, #51261d, #45330b); */
+    color: #8c7ae6;
+    padding: 2rem;
+}
+
+.noteset{
+    /* box-shadow: 0px 0px 5px 2px #4834d4; */
+    width: 92%;
+    margin: auto;
+
+}
+.btn_group{
+    display: flex;
+    gap: 2%;
+}
+.addbtn{
+    background: transparent;
+    position: relative;
+    left: 50%;
+
+}
+.updatebtn{
+    background: transparent;
+    position: relative;
+    left: 18%;
+}
